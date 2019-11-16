@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,700" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous"> -->
+    <title>Voting in Texas</title>
+  </head>
+  <body>
+    <!-- <div id= "wrapper"> -->
+      <section id="section1">
+        <header id="covertitle">
+          <h1>Don't mess with Texas Voters</h1>
+          <p>Let's face facts: It's not easy to vote in Texas! I can’t solve the legislation issues like gerrymandering and redistricting, but I can spare you the time it takes to search online for voting information on the 2000s web design hellhole that is our government's site.</p>
+        <div id="selection">
+          <!-- <div id="voterstatus"> -->
+            <a id="voterstatus" href="#section8">Show me where<br> to vote</a> <!-- V2 this will be "show me where to vote"---->
+          <!-- </div> -->
+          <!-- <div id="showme"> -->
+            <a id="showme" href="#section2">Show me how<br> to register</a>
+          <!-- </div> -->
+        </header>
+        </div>
+      </section>
+      <!-- <section id="section2"> This should only expand when the user clicks "Check my voter registration status" on cover page." Otherwise it is hidden.
+        <header>
+          <h1>Check my voter status</h1>
+        </header>
+        <p>You can quickly determine your status online by searching the statewide database below:</p>
+        <ul>
+          <a href="https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"><li>Am I registered?</li></a>Maybe have a popup modal appear here after a user clicks that says: "How'd it go? Are you registered? with 2 buttons- no, yes" Yes takes them to the "voting locations" and no takes them to "Who can vote"
+        <p>The only information required is your name, county and birthdate!</p>
+      </section>-->
+      <section id="section2"><!---This section will be small, different colored-->
+        <h1>First things first</h1>
+        <p>If you're confused on how to get started, you're not alone! We've all had the agonizing experience of searching government resources for simple instructions on how to register and vote, only to find conflicting information and distracting font colors.<br><br> I made this four-step guide to simplify the process, so you can focus on the important task: reading up on the candidates and making informed decisions! </p>
+           <ol>
+             <li>Check your voter eligibility requirements</li>
+             <li>Obtain a voter registration application</li>
+             <li>Fill out and mail the application</li>
+             <li>The fun part: Go vote!</li>
+          </ol>
+      </section>
+      <section id="section3">
+        <h1>Can you register?</h1>
+        <h3> To be eligible to vote, you must meet the following criteria:</h3>
+        <ul>
+          <li>You must be a citizen of the United States</li>
+          <li>You must be a resident of the county in which you register</li>
+          <li>You must be at least 17 years and 10 months old (you must be 18 to vote)</li>
+          <li>If you are a convicted felon, you are eligible to vote after you finish your incarceration, parole, supervision, and probation.</li>
+          <li>The law stipulates that if you have been found mentally incompetent by a court of law, you cannot vote.</li>
+        </ul>
+        <p>If you meet the criteria above, read on!</p>
+      </section>
+      <section id="section4">
+        <h1>Registering to Vote</h1>
+        <div class="container">
+          <div class="column">
+            <h3>Print your application online</h3>
+            <!-- For original JS under Zak's version: -->
+            <div class="imgWrap">
+              <img class="img_img frontCard" src="desktop-computer.svg"> <!---"Click me" the image should link to https://webservices.sos.state.tx.us/vrapp/index.asp in a new tab -->
+              <div class="backCard">
+                 <a class="backCardContent" href="https://webservices.sos.state.tx.us/vrapp/index.asp" target="_blank">Click here for a link to the application</a>
+               </div>
+              <p class="img_description">Click Me</p>
+            </div>
+          </div>
+        <div class="column">
+          <h3>Have an application mailed to you</h3>
+          <!-- <img src="image of a mailbox"> "Click me" the image should link to https://webservices.sos.state.tx.us/vrrequest/index.asp a new tab -->
+          <div class="imgWrap">
+            <img class="img_img frontCard" src="mailbox.svg">
+            <div class="backCard">
+              <a class="backCardContent" href="https://webservices.sos.state.tx.us/vrrequest/index.asp" target="_blank">Click here to request an application</a>
+            </div>
+            <p class="img_description">Click Me</p>
+          </div>
+        </div>
+        <div class="column">
+          <h3>Get an application in person</h3>
+          <div class="imgWrap">
+            <img class="img_img frontCard" src="library.svg">
+            <div id="inPerson">
+              <p>Get an application at any:</p>
+              <ul>
+                <li> U.S. Post office</li>
+                <li>Austin Public Library</li>
+                <li>Dept. of Public Safety</li>
+                <li>Dept. of Public Safety</li>
+                <li>Dept. of Health</li>
+                <li>Dept. of Human Services</li>
+              </ul>
+            </div>
+            <p class="img_description">Click Me</p>
+          </div>
+
+      </div>
+      </section>
+      <section id="section5" class="changeColor"><!---Make this a different color, maybe do some cool animation -->
+        <h1>You must be registered to vote within 30 days of the election in which you vote!</h1>
+      </section>
+      <section id="section6">
+        <h1>Fill out and mail your application!</h1>
+        <div class="mailingAddress">
+          <img class="envelope frontCard" src="letter.svg">
+          <div class="backEnvelope">
+            <h4>The application should already have the address, but here it is below:</h4>
+            <div>
+              <p>REGISTRAR OF VOTERS</p>
+              <p>P.O. BOX 1748</p>
+              <p>AUSTIN , TX 78767</p><br>
+            </div>
+          </div>
+          <p class="addressHover">Click Me for the Address</p>
+        </div>
+        <h2>Your voter registration card will be mailed to you no more than 30 days after applying.</h2>
+      </section>
+      <section id="section7">
+        <button class="accordion">
+          <p>Want to confirm that you're registered to vote?</p><!---make this expandable--->
+          <img src="angle-arrow-down.svg">
+        </button>
+        <div class="panel">
+          <h2>You can quickly determine your status online by searching the statewide database below:</h2>
+          <ul>
+            <a href="https://teamrv-mvp.sos.texas.gov/MVP/mvp.do" target="_blank"><li>Am I registered?</li></a>
+          </ul>
+          <p>The only information required is your name, county and birthdate!</p>
+        </div>
+      </section>
+      <section id="section8">
+        <h1>Find your polling location and vote!</h1>
+        <button class="accordionEarly">
+          <h2>Should I vote early or on election day?</h2>
+          <img src="angle-arrow-down.svg">
+        </button>
+        <div class="panelEarly">
+          <h2>Voting early gives you a lot of flexibility in when and where you vote:</h2>
+            <ul>
+              <li>You'll have at least 7 days to vote</li>
+              <li>Typically there are more early voting locations than on Election Day</li>
+              <li>You can beat the lines on Election Day.</li>
+            </ul>
+          </div>
+        <p>You can vote anywhere in Travis County</p>
+        <div class="map">
+          <script type="text/javascript" src="https://tool.votinginfoproject.org/app.js"></script>
+          <div id="_vit"></div>
+          <script type="text/javascript">
+            vit.load({
+            modal: true,
+            officialOnly: false,
+            title: 'Find your polling location:',
+
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Seal_of_Texas.svg/170px-Seal_of_Texas.svg.png',
+            colors: {
+              'header': '#25a095',
+              'landscapeBackgroundHeader': '#258065'
+            },
+            alertText: 'Check back here 90 days before the next election for polling information.',
+            language: 'en',
+          });</script>
+        </div>
+        <button class="accordion">
+          <h2>What to Bring</h2>
+          <img src="angle-arrow-down.svg">
+        </button>
+        <div class="panelBring">
+          <h3>You will need to bring 1 of these 7 forms of Photo ID:</h3>
+          <ul>
+            <li>Texas Driver License issued by the Texas Department of Public Safety (DPS)</li>
+            <li>Texas Election Identification Certificate (EIC) issued by DPS</li>
+            <li>Texas Personal Identification Card issued by DPS</li>
+            <li>Texas License to Carry a Handgun (LTC) issued by DPS</li>
+            <li>U.S. Military ID Card containing the person’s photograph</li>
+            <li>U.S. Citizenship Certificate containing the person’s photograph</li>
+            <li>U.S. Passport</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Putting this in a later version: <section id="section9">
+        <h1>Voting doesn't have to be this difficult.</h1>
+      </section> -->
+      <section id="section9">
+        <button class="accordionEarly">
+          <h2>Sources and Attributions</h2>
+          <img src="angle-arrow-down.svg">
+        </button>
+        <div class="sources">
+          <h3>Voting Information Sources</h3>
+            <ul>
+              <a href="https://www.sos.state.tx.us/elections/voter/reqvr.shtml"><li>Texas Secretary of State's Official Voting Site</li></a>
+              <a href="https://txapps.texas.gov/tolapp/sos/SOSACManager"><li>Change of Address from Texas Secretary of State</li></a>
+              <a href="https://webservices.sos.state.tx.us/vrapp/index.asp"><li>Voter Registration Application</li></a>
+            </ul>
+          <h3>Polling location map</h3>
+            <p>The tool uses <a href="https://developers.google.com/civic-information/">Google's Civic API</a> and the <a href="https://www.votinginfoproject.org/about">Voting Information Project's</a> embeddable Voter Information Tool.</p>
+          <h3>Texas Capitol Timelapse</h3>
+            <p>Timelapse shot and edited by <a href="http://projectgomez.com/">Manuel Gomez</a>.</p>
+          <h3>Icons</h3>
+          <ul>
+            <li>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+            <li>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+            <li>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+            <li>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+            <li>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+          </ul>
+        </div>
+    </section>
+      <footer>
+        <p>Designed and developed by Rachel Fuerst.</p>
+      </footer>
+    <!-- </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
