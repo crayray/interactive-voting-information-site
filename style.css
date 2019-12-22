@@ -31,9 +31,9 @@ section, footer {
     ),
      url(https://media.giphy.com/media/8mh2btlAw4y1EcX9XU/giphy.gif) no-repeat center center fixed;
   background-size: cover; */
-  height: 900px;
+  /* height: 900px;
   padding: 0;
-  margin: 0;
+  margin: 0; */
   /* position: relative; */
   letter-spacing: 1.5px;
 }
@@ -46,7 +46,7 @@ section, footer {
   /* position: absolute; */
   /* border: solid blue;
   margin: 75px 100px 75px 75px; */
-  margin: 150px 100px 200px 100px;
+  /* margin: 150px 100px 200px 100px; */
   color: white;
   border: 5px solid white;
   /* display: block; */
@@ -56,16 +56,16 @@ section, footer {
 #covertitle h1 {
   font-size: 60px;
   text-align: center;
-  margin-top: 75px;
-  padding: 80px 20px 0px 20px;
+  /* margin-top: 75px;
+  padding: 80px 20px 0px 20px; */
 }
 
 #covertitle p {
    word-wrap: break-word;
    text-align: center;
    line-height: 2;
-   width: 850px;
-   margin: auto;
+   /* width: 850px;
+   margin: auto; */
    font-size: 25px
 }
 #selection {
