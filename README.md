@@ -16,7 +16,7 @@ Check out the live site [here](https://epic-northcutt-e4f93e.netlify.com/)!
 ---
 
 ## Technologies
-This is a static site built with HTML, CSS, JavaScript, and JQuery. The map functionality comes from [Google's Civic API](https://developers.google.com/civic-information/) and the [Voting Information Project's embeddable Voter Information Tool](https://www.votinginfoproject.org/about). Data is only populated during election cycles. 
+This is a static site built with HTML, CSS, JavaScript, and JQuery. The map functionality comes from [Google's Civic API](https://developers.google.com/civic-information/) and the [Voting Information Project's embeddable Voter Information Tool](https://www.votinginfoproject.org/about). Data is only populated to the API during election cycles. 
 
 ## Credits
 The humble developer who built this app:
